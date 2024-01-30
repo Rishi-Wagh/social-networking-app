@@ -1,0 +1,11 @@
+@import url('../../app.style.scss');
+
+.leftbar{
+    flex: 2;
+    border-right: 1px solid var(--border);
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}

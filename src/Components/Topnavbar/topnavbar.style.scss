@@ -1,0 +1,85 @@
+@import url('../../app.style.scss');
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    height: 50px;
+    border-bottom: 1px solid var(--border);
+    background-color: var(--bg-color);
+    position: sticky;
+    top: 0;
+    color: var(--text-color);
+    z-index: 999;
+    
+    .left{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        .logo{
+            
+            .lside{
+                font-family: sans;
+                font-weight: 550;
+                font-size: 25px;
+            }
+
+            .rside{
+                font-family:fantasy;
+                font-weight: 500;
+                font-size: 30px;
+                letter-spacing: 1px;
+            }
+        }
+        
+        
+
+        .search{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-radius: 17px;
+            padding: 5px;
+            border: 1px solid var(--border);
+            
+            
+            input{
+                border: none;
+                width: 500px;
+                background-color: transparent;
+                border-radius: 15px;
+                color: var(--text-color);
+
+               
+            }
+
+            input:focus{
+                outline: none;
+            }
+        }
+
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        .user{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            img{
+               width: 40px;
+               height: 40px;
+               border-radius: 50%;
+               object-fit: cover;
+               border: 1px solid gray;
+            }
+
+            span{
+              font-weight: bold;
+            }
+        }
+    }
+}

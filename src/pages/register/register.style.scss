@@ -1,0 +1,83 @@
+.register{
+    height: 100vh;
+    background-color: rgb(193, 190, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    .cart{
+        width: 50%;
+       display: flex;
+       background-color: white;
+       border-radius: 10px;
+       height: 600px;
+       overflow: hidden;
+          .left{
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            h1{
+                color: #4a2290;
+                font-size: 45px;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+                button{
+                    width: 60%;
+                    padding: 10px;
+                    font-size: 17PX;;
+                    border: none;
+                    color: white;
+                    background-color: #938eef;
+                    border-radius: 5px;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+          }
+        }
+          .right{
+             
+            flex: 1;
+            background:  url(https://images.pexels.com/photos/3171710/pexels-photo-3171710.jpeg?auto=compress&cs=tinysrgb&w=600) center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            
+   
+               h1{
+                   font-size: 60px;
+                   line-height: 100px;
+                   color: white;
+                  margin-top: 8px;
+               }
+               p{
+                   color: white;
+                   font-size: 20px;
+                   
+               }
+               button{
+                   width: 60%;
+                   padding: 10px;
+                   font-size: 17PX;;
+                   border: none;
+                   color:  #4a2290;
+                   border-radius: 5px;
+                   background-color: white;
+                   font-weight: bold;
+                   cursor: pointer;
+                  
+               }
+
+          }
+    }
+}
